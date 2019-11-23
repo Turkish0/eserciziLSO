@@ -8,7 +8,11 @@
 
 /*Scrivere un programma che mostra il contenuto 
 di un file a byte alterni 
-il path del file deve essere passato da riga di comando */
+il path del file deve essere passato da riga di comando 
+
+LINK TRACCIA: http://wpage.unina.it/alberto.finzi/didattica/LSO/materiale/Esercitazione_System_Call_I_O.pdf
+PAGINA: 37
+*/
 int main(int argc, char **argv){
     char buffer[10];
     int fileDescriptor;
